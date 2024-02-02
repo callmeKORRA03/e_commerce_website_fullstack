@@ -9,3 +9,70 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Promo slide*/
+
+#promo {
+  background: #000;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  height: 9.5vh;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5em;
+}
+
+#promo .shop a {
+  color: white;
+}
+
+#promo .shop {
+  padding-left: 10px;
+}
+
+#promo .English {
+  cursor: pointer;
+}
+
+/* end of promo slide */
+
+/*Header*/
+#header {
+  padding-bottom: 3vh;
+  padding-top: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#header .logo {
+  font: 100px;
+}
+
+#header .links {
+  display: inline-flex;
+}
+
+#header .links {
+  list-style-type: none;
+}
+
+#header .links a {
+  color: #000;
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+hr {
+  size: 5;
+  width: 100%; /* display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; */
+}
