@@ -45,11 +45,19 @@ html {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  flex-wrap: wrap;
 }
 
-#header .logo {
-  font: 100px;
+#header p {
+  letter-spacing: 5px;
+}
+#header .x {
+  cursor: pointer;
+  color: brown;
+  font-weight: 700;
+}
+
+#header img {
+  cursor: pointer;
 }
 
 #header .links {
@@ -63,16 +71,78 @@ html {
 #header .links a {
   color: #000;
   text-decoration: none;
-  padding: 1.5em;
+  padding-right: 1.5em !important;
+}
+
+#header .search {
+  padding: 5px;
+  border: none;
+  width: 55%;
+  background: whitesmoke;
+
+  border-color: none;
+  border-radius: none;
+  border-width: 0;
+  outline: none;
+}
+
+#header #mainIcons {
+  cursor: pointer;
+}
+
+#header #mainIcons:hover {
+  color: brown;
+}
+
+#header #button {
+  position: relative;
+  color: gray;
+  right: 35px;
+  top: 1px;
+  padding-left: -20px;
 }
 
 hr {
-  size: 5;
-  width: 100%; /* display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px; */
+  width: 100%;
+}
+
+/*Vertical horizontal rule style*/
+.secondhr {
+  transform: rotate(90deg);
+  width: 26.5%;
+  height: 1px;
+  margin-top: 19.9vh;
+  left: 15%;
+}
+
+/*Hero section style*/
+
+#heroSection {
+  padding: 2.5em;
+  display: flex;
+}
+
+#heroSection .left-sidebar ul li {
+  list-style-type: none;
+}
+#heroSection .left-sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#heroSection .image-carosel {
+  background: #000;
+  color: white;
+  /* margin-left: 15rem;
+  padding-left: 10rem; */
+  width: 50%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+#heroSection .image-carosel a {
+  color: white;
 }

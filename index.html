@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="src/styles/index.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -25,20 +25,71 @@
 
     <!--Header Section-->
     <header id="header">
-      <p class="logo">e<span>X</span>clusive</p>
-      <ul class="links">
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Sign Up</a></li>
-      </ul>
-
+      <p>e<span class="x">X</span>clusive</p>
+      <!--Links to several pages-->
+      <nav>
+        <ul class="links">
+          <li><a href="">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Sign Up</a></li>
+        </ul>
+      </nav>
+      <!--Search bar-->
       <form action="get" class="Search">
-        <input type="text" placeholder="What are you looking for ?" />
-        <i class="fa fa-heart" aria-hidden="true"></i>
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <input type="search" placeholder="Search" class="search" />
+        <i class="fa fa-search" aria-hidden="true" id="button"></i>
+
+        <i
+          class="fa fa-heart"
+          aria-hidden="true"
+          style="padding-right: 10px"
+          id="mainIcons"
+        ></i>
+        <i class="fa fa-shopping-cart" aria-hidden="true" id="mainIcons"></i>
       </form>
     </header>
-    <hr size="7" />
+    <!--Vertical horizontal bar-->
+    <hr size="1px" style="color: whitesmoke !important" />
+
+    <!--Hero Section-->
+    <section id="heroSection">
+      <div class="left-sidebar">
+        <ul>
+          <li><a href="">Women's Fashion</a></li>
+          <li><a href="">Men's Fashion</a></li>
+          <li><a href="">Electronics</a></li>
+          <li><a href="">Home & Lifestyle</a></li>
+          <li><a href="">Medicine</a></li>
+          <li><a href="">Sports & Outdoor</a></li>
+          <li><a href="">Baby's & Toys</a></li>
+          <li><a href="">Groceries & Pets</a></li>
+          <li><a href="">Health & Beauty</a></li>
+        </ul>
+      </div>
+      <hr class="secondhr" />
+      <div class="image-carosel">
+        <p>
+          <img
+            src="images/1200px-Apple_gray_logo 1.png"
+            height="30px"
+            style="object-fit: contain; padding-top: 10px; padding-left: 10px"
+            alt=""
+          />
+          <span>iPhone 14 Series</span>
+        </p>
+        <br />
+
+        <h3>
+          Up to 10% <br />
+          off Voucher
+        </h3>
+        <br />
+
+        <a href="" class="shopLink"
+          >Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i
+        ></a>
+      </div>
+    </section>
   </body>
 </html>
